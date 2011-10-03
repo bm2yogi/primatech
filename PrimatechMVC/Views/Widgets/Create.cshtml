@@ -1,0 +1,34 @@
+﻿@using PrimatechMVC.Models
+@model Widget
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>
+    Create</h2>
+<fieldset>
+    <legend>Widget</legend>
+    @Html.EditorForModel(Model)
+    <button id="saveButton" type="submit">Save</button>
+</fieldset>
+
+<script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        $("#saveButton").click(Widget.save);
+    });
+
+    var Widget = {};
+
+    Widget.save = function () {
+        var widget = {
+            Id: $("#Id").val(),
+            Name: $("#Name").val(),
+            SKU: $("#SKU").val(),
+            UnitPrice: $("#UnitPrice").val()
+        };
+
+        $.post('create', widget, function() { alert('success'); });
+    };
+    
+</script>
