@@ -13,7 +13,7 @@ namespace PrimatechMVC.Controllers
 
         public ActionResult Create(Widget widget)
         {
-            return new EmptyResult();
+            return Json(widget);
         }
 
     }

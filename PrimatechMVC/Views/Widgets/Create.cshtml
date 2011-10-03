@@ -28,7 +28,11 @@
             UnitPrice: $("#UnitPrice").val()
         };
 
-        $.post('create', widget, function() { alert('success'); });
+        $.post('create', widget, Widget.success );
+    };
+
+    Widget.success = function(data) {
+        alert(data.Name);
     };
     
 </script>
