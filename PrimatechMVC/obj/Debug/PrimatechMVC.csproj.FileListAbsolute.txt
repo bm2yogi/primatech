@@ -11,3 +11,16 @@ C:\Source\PrimatechMVC\PrimatechMVC\bin\Autofac.xml
 C:\Source\PrimatechMVC\PrimatechMVC\obj\Debug\ResolveAssemblyReference.cache
 C:\Source\PrimatechMVC\PrimatechMVC\obj\Debug\PrimatechMVC.dll
 C:\Source\PrimatechMVC\PrimatechMVC\obj\Debug\PrimatechMVC.pdb
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.dll
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.pdb
+C:\Demo\Primatech\PrimatechMVC\bin\Autofac.Configuration.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Autofac.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Autofac.Integration.Mvc.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Spark.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Spark.Web.Mvc.dll
+C:\Demo\Primatech\PrimatechMVC\bin\WebActivator.dll
+C:\Demo\Primatech\PrimatechMVC\bin\Autofac.xml
+C:\Demo\Primatech\PrimatechMVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Demo\Primatech\PrimatechMVC\obj\Debug\PrimatechMVC.dll
+C:\Demo\Primatech\PrimatechMVC\obj\Debug\PrimatechMVC.pdb

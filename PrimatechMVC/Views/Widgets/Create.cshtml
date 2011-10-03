@@ -1,19 +1,23 @@
 ﻿@using PrimatechMVC.Models
 @model Widget
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Create a new widget";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    Html.EnableClientValidation();
 }
 
-<h2>
-    Create</h2>
+<h2>Create</h2>
+@{Html.BeginForm();}
 <fieldset>
     <legend>Widget</legend>
+
     @Html.EditorForModel(Model)
     <button id="saveButton" type="submit">Save</button>
-</fieldset>
 
-<script language="javascript" type="text/javascript">
+</fieldset>
+@{Html.EndForm();}
+
+@*<script language="javascript" type="text/javascript">
     $(document).ready(function() {
         $("#saveButton").click(Widget.save);
     });
@@ -28,11 +32,12 @@
             UnitPrice: $("#UnitPrice").val()
         };
 
-        $.post('create', widget, Widget.success );
+        $.post('create', widget, Widget.success);
+        //return false;
     };
 
     Widget.success = function(data) {
         alert(data.Name);
     };
     
-</script>
+</script>*@
