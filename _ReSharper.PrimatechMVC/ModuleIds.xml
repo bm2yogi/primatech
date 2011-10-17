@@ -1,3 +1,6 @@
 <Modules>
   <Module PersistentId="95A922EE-F825-4F1F-9E22-FC4F10190D86" ModuleId="PrimatechMVC" />
+  <Module PersistentId="2B1CDBC7-B2A7-471B-8903-8512AAC88B94" ModuleId="PrimatechMVC.Validation" />
+  <Module PersistentId="System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.ComponentModel.DataAnnotations" />
+  <Module PersistentId="6CEAE047-593D-4F1C-8F26-EEF1BD36C5F4" ModuleId="PrimatechMVC.Localization" />
 </Modules>

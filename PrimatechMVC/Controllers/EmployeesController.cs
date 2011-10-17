@@ -19,7 +19,14 @@ namespace PrimatechMVC.Controllers
         [HttpPost]
         public ActionResult Add(EmployeeProfile profile)
         {
-            return View();
+            var viewName = "";
+            if (ModelState.IsValid)
+            {
+                viewName = "Index";
+                //process profile
+            }
+
+            return View(viewName);
         }
 
         [HttpGet]

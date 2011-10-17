@@ -43,6 +43,9 @@
     <Reference Include="Autofac.Integration.Mvc">
       <HintPath>..\packages\Autofac.Mvc3.2.5.2.830\lib\NET40\Autofac.Integration.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -53,6 +56,7 @@
     <Reference Include="Spark.Web.Mvc">
       <HintPath>..\packages\Spark.Web.Mvc3.1.6\lib\Spark.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.WebPages" />
     <Reference Include="System.Web.Helpers" />
@@ -81,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\SparkWebMvc.cs" />
-    <Compile Include="Controllers\Employees.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -152,7 +156,19 @@
     <Folder Include="Views\Widgets\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\Shared\Application.spark" />
+    <None Include="Views\Shared\Application.spark">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrimatechMVC.Localization\PrimatechMVC.Localization.csproj">
+      <Project>{6CEAE047-593D-4F1C-8F26-EEF1BD36C5F4}</Project>
+      <Name>PrimatechMVC.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrimatechMVC.Validation\PrimatechMVC.Validation.csproj">
+      <Project>{2B1CDBC7-B2A7-471B-8903-8512AAC88B94}</Project>
+      <Name>PrimatechMVC.Validation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

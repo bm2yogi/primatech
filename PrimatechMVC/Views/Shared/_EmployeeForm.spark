@@ -1,7 +1,7 @@
 #Html.BeginForm();
 <fieldset>
   <legend>Employee Profile</legend>
-  <Html.EditorForModel(model)/>
+  ${Html.EditorForModel(viewModel)}
   <SubmitButton/>
 </fieldset>
 #Html.EndForm();

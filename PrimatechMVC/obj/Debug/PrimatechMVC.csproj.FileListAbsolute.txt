@@ -24,3 +24,9 @@ C:\Demo\Primatech\PrimatechMVC\bin\Autofac.xml
 C:\Demo\Primatech\PrimatechMVC\obj\Debug\ResolveAssemblyReference.cache
 C:\Demo\Primatech\PrimatechMVC\obj\Debug\PrimatechMVC.dll
 C:\Demo\Primatech\PrimatechMVC\obj\Debug\PrimatechMVC.pdb
+C:\Demo\Primatech\PrimatechMVC\bin\EntityFramework.dll
+C:\Demo\Primatech\PrimatechMVC\bin\EntityFramework.xml
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.Localization.dll
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.Validation.dll
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.Localization.pdb
+C:\Demo\Primatech\PrimatechMVC\bin\PrimatechMVC.Validation.pdb
