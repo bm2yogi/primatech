@@ -6,9 +6,9 @@ namespace PrimatechMVC.ModelMetadata
     public class EmployeeProfileMetadata
     {
 
+        [GreaterThan(100)]
         public int EmployeeId { get; set; }
         [StringLength(5, MinimumLength = 3)]
-        //[MaxLength(5), MinLength(3)]
         public string FirstName { get; set; }
         //[Display(ResourceType=typeof(Localization.Employees), Name = "LastName")]
         //[StringLength(5, MinimumLength = 3, ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "StringLengthNotInRange")]
