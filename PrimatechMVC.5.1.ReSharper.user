@@ -7,8 +7,26 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/f:Global.asax.cs" caret="505" fromTop="16" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/f:Web.config" caret="321" fromTop="10" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:App_Start/f:SparkWebMvc.cs" caret="0" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:prototype.htm" caret="234" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Home/f:index.spark" caret="13" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="714" fromTop="7" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Content/f:main.scss" caret="422" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:prototype.htm" caret="232" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="872" fromTop="6" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="817" fromTop="8" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="747" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="804" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Home/f:index.spark" caret="13" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="714" fromTop="7" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +39,49 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="JsonResult`0" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="return" priority="3" />
+      <Item value="sku" priority="0" />
+      <Item value="WidgetModelMetadata`0" priority="2" />
+      <Item value="Data" priority="1" />
+      <Item value="Web" priority="0" />
+      <Item value="Mvc" priority="0" />
+      <Item value="DataAnnotationsModelMetadata`0" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="ModelState" priority="0" />
+      <Item value="View`0" priority="1" />
+      <Item value="public" priority="1" />
+      <Item value="ActionResult`0" priority="1" />
+      <Item value="RedirectToAction`0" priority="1" />
+      <Item value="RegularExpression" priority="0" />
+      <Item value="Display" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="ScaffoldColumn" priority="0" />
+      <Item value="EmptyResult`0" priority="0" />
+      <Item value="IValidatableObject`0" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="RegularExpressionAttribute`0" priority="0" />
+      <Item value="ctor" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="DataType" priority="0" />
+      <Item value="DataType`0" priority="0" />
+      <Item value="StringLength" priority="0" />
+      <Item value="MinimumLength" priority="0" />
+      <Item value="AllowGet" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToLower`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="EmailAddress" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

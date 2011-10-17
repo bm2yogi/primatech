@@ -1,0 +1,7 @@
+#Html.BeginForm();
+<fieldset>
+  <legend>Employee Profile</legend>
+  <Html.EditorForModel(model)/>
+  <SubmitButton/>
+</fieldset>
+#Html.EndForm();
