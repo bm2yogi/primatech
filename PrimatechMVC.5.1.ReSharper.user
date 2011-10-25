@@ -16,8 +16,6 @@
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Home/f:index.spark" caret="13" fromTop="0" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Employees/f:Index.spark" caret="0" fromTop="0" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:_EmployeeForm.spark" caret="102" fromTop="3" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Employees/f:Add.spark" caret="79" fromTop="1" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Employees/f:Edit.spark" caret="79" fromTop="1" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Controllers/f:EmployeesController.cs" caret="588" fromTop="25" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/f:Web.config" caret="321" fromTop="10" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Content/f:main.min.css" caret="0" fromTop="0" />
@@ -26,13 +24,13 @@
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Content/f:main.scss" caret="359" fromTop="15" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:ModelMetadata/f:EmployeeProfileMetaData.cs" caret="368" fromTop="10" />
       <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:EmailAttribute.cs" caret="224" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Employees/f:Edit.spark" caret="0" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Employees/f:Add.spark" caret="0" fromTop="0" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Scripts/f:customValidations.js" caret="129" fromTop="1" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:ModelClientValidationGreaterThanRule.cs" caret="351" fromTop="9" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:IsMyNameAttribute.cs" caret="933" fromTop="28" />
     </RecentFiles>
     <RecentEdits>
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="872" fromTop="6" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Views/d:Shared/f:Application.spark" caret="747" fromTop="9" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Models/f:EmployeeProfile.cs" caret="537" fromTop="10" />
-      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Models/f:EmployeeProfile.cs" caret="537" fromTop="4" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Models/f:EmployeeProfile.cs" caret="539" fromTop="21" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Models/f:EmployeeProfile.cs" caret="165" fromTop="4" />
       <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Models/f:EmployeeProfile.cs" caret="539" fromTop="15" />
@@ -58,6 +56,11 @@
       <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:EmailAttribute.cs" caret="539" fromTop="13" />
       <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:EmailAttribute.cs" caret="248" fromTop="9" />
       <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:EmailAttribute.cs" caret="560" fromTop="9" />
+      <File id="95A922EE-F825-4F1F-9E22-FC4F10190D86/d:Scripts/f:customValidations.js" caret="134" fromTop="1" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:IsMyNameAttribute.cs" caret="182" fromTop="6" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:IsMyNameAttribute.cs" caret="407" fromTop="11" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:IsMyNameAttribute.cs" caret="805" fromTop="24" />
+      <File id="2B1CDBC7-B2A7-471B-8903-8512AAC88B94/f:IsMyNameAttribute.cs" caret="933" fromTop="28" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -75,7 +78,7 @@
     <ItemStatistics item="Default">
       <Item value="JsonResult`0" priority="0" />
       <Item value="string" priority="4" />
-      <Item value="return" priority="7" />
+      <Item value="return" priority="9" />
       <Item value="sku" priority="0" />
       <Item value="WidgetModelMetadata`0" priority="2" />
       <Item value="Data" priority="2" />
@@ -128,6 +131,10 @@
       <Item value="yield return" priority="0" />
       <Item value="ModelClientValidationRule" priority="0" />
       <Item value="ErrorMessage" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="_minimumValue" priority="0" />
+      <Item value="false" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Contains`0" priority="0" />
@@ -141,6 +148,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:PrimatechMVC.Validation.EmailAttribute">
       <Item value="FormatErrorMessage`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
