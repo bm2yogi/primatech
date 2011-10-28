@@ -1,6 +1,4 @@
-﻿$validation-error-normal : #ff3333;
-$validation-error-highlight : lighten($validation-error-normal, 20%);
-$validation-error-accent : darken($validation-error-normal, 20%);
+﻿@import "defaults.scss";
 
 .field-validation-error
 {

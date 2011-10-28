@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="EmailAddressExists" xml:space="preserve">
+    <value>{0} is already assigned to another employee</value>
+  </data>
   <data name="EmailAddressInvalidFormat" xml:space="preserve">
-    <value>That doesn't look like a real email address</value>
+    <value>{0} is not formatted correctly</value>
   </data>
   <data name="EmailAddressIsRequired" xml:space="preserve">
-    <value>I really need your email address</value>
+    <value>{0} is required</value>
   </data>
   <data name="EmployeeNumberTooSmall" xml:space="preserve">
     <value>{0} needs to be greater than {1}</value>

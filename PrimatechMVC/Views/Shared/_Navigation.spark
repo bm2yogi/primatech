@@ -4,7 +4,7 @@
 		${Html.ActionLink("Home","Index","Home")}
 		</li>
 		<li>
-		${Html.ActionLink("Employees","Index","Home")}
+		${Html.ActionLink("New Employee","Add","Employees")}
 		</li>
 		<li>
 		${Html.ActionLink("Help","Index","Home")}

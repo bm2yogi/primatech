@@ -103,6 +103,7 @@
     <Content Include="Content\defaults.min.css">
       <DependentUpon>defaults.scss</DependentUpon>
     </Content>
+    <Content Include="Content\images\logo_home.gif" />
     <Content Include="Content\main.min.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>

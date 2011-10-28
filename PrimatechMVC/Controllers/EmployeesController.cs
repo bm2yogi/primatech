@@ -40,5 +40,11 @@ namespace PrimatechMVC.Controllers
         {
             return View();
         }
+
+        public JsonResult IsExistingEmail(string email)
+        {
+            var result = !email.ToLowerInvariant().Equals("bm2yogi@gmail.com");
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
     }
 }

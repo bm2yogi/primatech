@@ -61,7 +61,16 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to That doesn&apos;t look like a real email address.
+        ///   Looks up a localized string similar to {0} is already assigned to another employee.
+        /// </summary>
+        public static string EmailAddressExists {
+            get {
+                return ResourceManager.GetString("EmailAddressExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} is not formatted correctly.
         /// </summary>
         public static string EmailAddressInvalidFormat {
             get {
@@ -70,7 +79,7 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I really need your email address.
+        ///   Looks up a localized string similar to {0} is required.
         /// </summary>
         public static string EmailAddressIsRequired {
             get {

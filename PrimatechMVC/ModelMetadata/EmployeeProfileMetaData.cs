@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 using PrimatechMVC.Validation;
 
 namespace PrimatechMVC.ModelMetadata
 {
     public class EmployeeProfileMetadata
     {
-
         [Display(ResourceType =typeof(Localization.Employees), Name="EmployeeId")]
         [GreaterThan(100, ErrorMessageResourceType=typeof(Localization.Validation), ErrorMessageResourceName = "EmployeeNumberTooSmall")]
         public int EmployeeId { get; set; }
@@ -20,6 +20,7 @@ namespace PrimatechMVC.ModelMetadata
         public string HireDate { get; set; }
         
         [Required(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressIsRequired")]
+        [Remote("IsExistingEmail", "Employees", ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressExists")]
         [Email(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressInvalidFormat")]
         public string Email { get; set; }
     }

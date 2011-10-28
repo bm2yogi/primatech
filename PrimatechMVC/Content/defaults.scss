@@ -1,2 +1,12 @@
-﻿$validation-error-normal : #cc0000;
-$validation-error-highlight : lighten($validation-error-normal, 10%);
+﻿/*Default Colors*/
+$validation-error-normal : #ff3333;
+$validation-error-highlight : lighten($validation-error-normal, 15%);
+$validation-error-accent : darken($validation-error-normal, 15%);
+
+$color-yellow-normal: #ecd000;
+$color-yellow-highlight: lighten($color-yellow-normal, 15%);
+$color-yellow-shaded: darken($color-yellow-normal, 15%);
+
+$color-brown-normal:#351601;
+$color-brown-highlight: lighten($color-brown-normal, 15%);
+$color-brown-shaded: darken($color-brown-normal, 15%);
