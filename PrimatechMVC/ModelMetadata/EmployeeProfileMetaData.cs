@@ -20,8 +20,8 @@ namespace PrimatechMVC.ModelMetadata
         public string HireDate { get; set; }
         
         [Required(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressIsRequired")]
-        [Remote("IsExistingEmail", "Employees", ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressExists")]
         [Email(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressInvalidFormat")]
+        [Remote("IsExistingEmail", "Employees", ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressExists")]
         public string Email { get; set; }
     }
 }
