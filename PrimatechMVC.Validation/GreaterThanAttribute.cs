@@ -8,7 +8,6 @@ namespace PrimatechMVC.Validation
     public class GreaterThanAttribute : ValidationAttribute, IClientValidatable
     {
         private readonly int _minimumValue;
-        public const string ValidationType = "greaterthan";
 
         public GreaterThanAttribute(int minimumValue)
         {
@@ -17,7 +16,13 @@ namespace PrimatechMVC.Validation
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
         {
-            yield return new ModelClientValidationGreaterThanRule(metadata.GetDisplayName(), _minimumValue);
+            var errorMessage = FormatErrorMessage(metadata.GetDisplayName());
+            yield return new ModelClientValidationGreaterThanRule(errorMessage, _minimumValue);
+        }
+
+        public override string FormatErrorMessage(string name)
+        {
+            return string.Format(ErrorMessageString, name, _minimumValue);
         }
 
         public override bool IsValid(object value)

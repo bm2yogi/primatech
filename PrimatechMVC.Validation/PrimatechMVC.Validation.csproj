@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmailAttribute.cs" />
-    <Compile Include="IsMyNameAttribute.cs" />
+    <Compile Include="GreaterThanAttribute.cs" />
     <Compile Include="ModelClientValidationGreaterThanRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

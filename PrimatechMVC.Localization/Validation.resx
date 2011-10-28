@@ -123,6 +123,9 @@
   <data name="EmailAddressIsRequired" xml:space="preserve">
     <value>I really need your email address</value>
   </data>
+  <data name="EmployeeNumberTooSmall" xml:space="preserve">
+    <value>{0} needs to be greater than {1}</value>
+  </data>
   <data name="StringLengthNotInRange" xml:space="preserve">
     <value>{0} needs to be between {2} and {1} characters long</value>
   </data>

@@ -8,7 +8,7 @@ namespace PrimatechMVC.Validation
         {
             this.ErrorMessage = errorMessage;
             this.ValidationType = "greaterthan";
-            this.ValidationParameters.Add("minValue", minimumValue);
+            this.ValidationParameters.Add("minvalue", minimumValue);
         }
     }
 }

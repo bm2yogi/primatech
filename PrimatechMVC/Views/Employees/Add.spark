@@ -1,2 +1,3 @@
 <viewdata model="Models.EmployeeProfile" />
+<ValidationScripts />
 <EmployeeForm viewModel="Model" />

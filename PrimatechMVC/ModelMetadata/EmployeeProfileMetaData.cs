@@ -6,8 +6,10 @@ namespace PrimatechMVC.ModelMetadata
     public class EmployeeProfileMetadata
     {
 
-        [GreaterThan(100)]
+        [Display(ResourceType =typeof(Localization.Employees), Name="EmployeeId")]
+        [GreaterThan(100, ErrorMessageResourceType=typeof(Localization.Validation), ErrorMessageResourceName = "EmployeeNumberTooSmall")]
         public int EmployeeId { get; set; }
+        
         [StringLength(5, MinimumLength = 3)]
         public string FirstName { get; set; }
         //[Display(ResourceType=typeof(Localization.Employees), Name = "LastName")]

@@ -135,6 +135,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Views\Shared\prototype.htm" />
     <Content Include="Views\Shared\_global.spark" />
+    <Content Include="Views\Shared\_ValidationScripts.spark" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -143,9 +144,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <None Include="Views\Employees\Add.spark" />
-    <None Include="Views\Employees\Edit.spark" />
-    <None Include="Views\Employees\Index.spark" />
+    <None Include="Views\Employees\add.spark" />
+    <None Include="Views\Employees\edit.spark" />
+    <None Include="Views\Employees\index.spark" />
     <None Include="Views\Home\index.spark" />
     <None Include="Views\Shared\_EmployeeForm.spark" />
     <None Include="Views\Shared\_SubmitButton.spark" />

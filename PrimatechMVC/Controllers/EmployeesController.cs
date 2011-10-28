@@ -13,7 +13,7 @@ namespace PrimatechMVC.Controllers
         [HttpGet]
         public ActionResult Add()
         {
-            return View();
+            return View("Add");
         }
 
         [HttpPost]

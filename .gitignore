@@ -1,5 +1,14 @@
-PrimatechMVC.5.1.Resharper.User
-_Resharper.PrimatechMVC
-PrimatechMVC.suo
+#this
+.gitignore
+
+#user prefs
+*.user
+*.suo
+
+#resharper
+*resharper*
+*dotcover*
+
+#build artifacts
 bin
-debug
+obj

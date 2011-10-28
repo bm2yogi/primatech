@@ -1,0 +1,8 @@
+﻿<content:head>
+	<script type="text/javascript" src="${Url.Content('~/scripts/jquery-1.6.4.min.js')}" once="jQuery"></script>
+	<script type="text/javascript" src="${Url.Content('~/scripts/jquery.validate.min.js')}" once="jQueryValidate"></script>
+	<script type="text/javascript" src="${Url.Content('~/scripts/jquery.unobtrusive-ajax.min.js')}" once="jQueryUnobtrusive"></script>
+	<script type="text/javascript" src="${Url.Content('~/scripts/jquery.validate.unobtrusive.min.js')}" once="jQueryValidateUnobtrusive"></script>
+
+	<script type="text/javascript" src="${Url.Content('~/scripts/customValidations.js')}" once="customValidation"></script>
+</content:head>
