@@ -1,0 +1,13 @@
+﻿<nav>
+	<ul>
+		<li>
+		${Html.ActionLink("Home","Index","Home")}
+		</li>
+		<li>
+		${Html.ActionLink("Employees","Index","Home")}
+		</li>
+		<li>
+		${Html.ActionLink("Help","Index","Home")}
+		</li>
+	</ul>
+</nav>

@@ -1,6 +1,7 @@
 #Html.BeginForm();
 <fieldset>
   <legend>Employee Profile</legend>
+  <!--${Html.ValidationSummary()}-->
   ${Html.EditorForModel(viewModel)}
   <SubmitButton/>
 </fieldset>

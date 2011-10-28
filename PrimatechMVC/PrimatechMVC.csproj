@@ -95,18 +95,38 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\defaults.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>defaults.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\defaults.min.css">
+      <DependentUpon>defaults.scss</DependentUpon>
+    </Content>
     <Content Include="Content\main.min.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
-    <Content Include="Content\main1.css">
+    <Content Include="Content\main.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="Content\validation.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>validation.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\validation.min.css">
+      <DependentUpon>validation.scss</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
+    <None Include="Content\defaults.scss">
+      <Generator>ScssGenerator</Generator>
+      <LastGenOutput>defaults.css</LastGenOutput>
+    </None>
     <None Include="Content\main.scss">
       <Generator>ScssGenerator</Generator>
-      <LastGenOutput>main1.css</LastGenOutput>
+      <LastGenOutput>main.css</LastGenOutput>
     </None>
     <Content Include="Content\themes\base\jquery-ui.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -135,6 +155,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Views\Shared\prototype.htm" />
     <Content Include="Views\Shared\_global.spark" />
+    <Content Include="Views\Shared\_Header.spark" />
+    <Content Include="Views\Shared\_Navigation.spark" />
     <Content Include="Views\Shared\_ValidationScripts.spark" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -144,6 +166,10 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <None Include="Content\validation.scss">
+      <Generator>ScssGenerator</Generator>
+      <LastGenOutput>validation.css</LastGenOutput>
+    </None>
     <None Include="Views\Employees\add.spark" />
     <None Include="Views\Employees\edit.spark" />
     <None Include="Views\Employees\index.spark" />
@@ -154,9 +180,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Widgets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Views\Shared\Application.spark">
       <SubType>Designer</SubType>

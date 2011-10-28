@@ -1,0 +1,31 @@
+﻿$validation-error-normal : #ff3333;
+$validation-error-highlight : lighten($validation-error-normal, 20%);
+$validation-error-accent : darken($validation-error-normal, 20%);
+
+.field-validation-error
+{
+    color: $validation-error-normal;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid $validation-error-normal;
+    background-color: $validation-error-highlight;
+}
+
+.validation-summary-errors
+{
+	@extend .input-validation-error;
+    color: $validation-error-accent;
+	li {list-style-type:none;}
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

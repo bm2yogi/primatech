@@ -4,8 +4,6 @@ legend{font-size:1.2em;font-weight:bold}
 textarea{min-height:75px}
 .editor-label{margin:1em 0 0 0}
 .editor-field{margin:.5em 0 0 0}
-.field-validation-error{color:#f00}
-.field-validation-valid{display:none}
-.input-validation-error{border:1px solid #f00;background-color:#fee}
-.validation-summary-errors{font-weight:bold;color:#f00}
-.validation-summary-valid{display:none}
+nav{border-top:1px solid black;border-bottom:1px solid black;background-color:silver;margin:1.5em auto}
+nav ul li{display:inline;list-style-type:none;margin:1.5em;font-size:1.25em}
+nav ul li a{text-decoration:none}

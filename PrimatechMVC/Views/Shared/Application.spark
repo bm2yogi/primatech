@@ -2,10 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Primatech, Inc.</title>
-    <link once="main" type="text/css" href="${Url.Content('~/content/main.min.css')}" />
+    <link once="main" rel="Stylesheet" type="text/css" href="${Url.Content('~/content/main.min.css')}" />
     <use:head />
   </head>
   <body>
+    <Header />
+    <Navigation />
     <use:view />
   </body>
 </html>
