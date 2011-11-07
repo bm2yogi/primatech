@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="Scripts/jquery-1.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var alphadata = { color: 'red', city: 'seattle' };
+            var betadata = { color: 'blue', city: 'tulsa' };
+
+            $("#alfa").data("alphadata", alphadata);
+            $("#bravo").data("betadata", betadata);
+
+            var info = $('#alfa').data();
+
+            alert(info);
+
+        })
+    </script>
+</head>
+<body>
+<h1>This is the title</h1>
+<p>This is some text</p>
+<label id="alfa" data-info="0" data-info-text="this is the label"></label>
+<input id="bravo" type="text" data-info="0" data-info-target="this is the input" />
+</body>
+</html>

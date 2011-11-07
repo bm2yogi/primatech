@@ -120,6 +120,7 @@
     <Content Include="Content\validation.min.css">
       <DependentUpon>validation.scss</DependentUpon>
     </Content>
+    <Content Include="datademo.html" />
     <Content Include="Global.asax" />
     <None Include="Content\defaults.scss">
       <Generator>ScssGenerator</Generator>
