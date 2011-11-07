@@ -4,16 +4,23 @@
     <title></title>
     <script type="text/javascript" src="Scripts/jquery-1.6.4.min.js"></script>
     <script>
+
+        function square(number) {
+            alert(number + ' squared = ' + number* number);
+        }
+
         $(document).ready(function () {
             var alphadata = { color: 'red', city: 'seattle' };
-            var betadata = { color: 'blue', city: 'tulsa' };
+            var betadata = { func: square, number: 5 };
 
             $("#alfa").data("alphadata", alphadata);
-            $("#bravo").data("betadata", betadata);
+            $("#bravo").data("foo", betadata);
 
-            var info = $('#alfa').data();
+            var data = $('#bravo').data();
+            data.foo.func(data.foo.number);
 
-            alert(info);
+            var data = $('#alfa').data();
+            data.func(data.number);
 
         })
     </script>
@@ -21,7 +28,7 @@
 <body>
 <h1>This is the title</h1>
 <p>This is some text</p>
-<label id="alfa" data-info="0" data-info-text="this is the label"></label>
-<input id="bravo" type="text" data-info="0" data-info-target="this is the input" />
+<label id="alfa" data-func="square" data-number="3"></label>
+<input id="bravo" type="text" />
 </body>
 </html>
