@@ -9,7 +9,7 @@
             alert(number + ' squared = ' + number* number);
         }
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             var alphadata = { color: 'red', city: 'seattle' };
             var betadata = { func: square, number: 5 };
 
@@ -19,10 +19,10 @@
             var data = $('#bravo').data();
             data.foo.func(data.foo.number);
 
-            var data = $('#alfa').data();
+            data = $('#alfa').data();
             data.func(data.number);
 
-        })
+        });
     </script>
 </head>
 <body>

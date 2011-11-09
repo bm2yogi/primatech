@@ -1,27 +1,34 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Web.Mvc;
-using PrimatechMVC.Validation;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PrimatechMVC.ModelMetadata
 {
     public class EmployeeProfileMetadata
     {
-        [Display(ResourceType =typeof(Localization.Employees), Name="EmployeeId")]
-        [GreaterThan(100, ErrorMessageResourceType=typeof(Localization.Validation), ErrorMessageResourceName = "EmployeeNumberTooSmall")]
+        [Display(ResourceType = typeof(Localization.Employees), Name = "Employee_Id")]
         public int EmployeeId { get; set; }
+
+        [Display(ResourceType = typeof(Localization.Employees), Name = "FirstName")]
+        [Required, StringLength(50, MinimumLength = 45, ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "StringLengthNotInRange")]
         public string FirstName { get; set; }
+        
+        [StringLength(50, MinimumLength = 45)]
         [Display(ResourceType = typeof(Localization.Employees), Name = "LastName")]
-        [StringLength(5, MinimumLength = 3, ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "StringLengthNotInRange")]
         public string LastName { get; set; }
+
+        [Range(0.0d, 1.0d)]
+        public double ProficiencyIndex { get; set; }
+
+        [RegularExpression(@"^\d{3}-\d{2}-\d{4}$")]
+        public string SocialSecurityId { get; set; }
+
         public string Position { get; set; }
+
         public string Department { get; set; }
-        
-        [DataType(DataType.Date)]
-        public string HireDate { get; set; }
-        
-        [Required(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressIsRequired")]
-        [Email(ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressInvalidFormat")]
-        [Remote("IsExistingEmail", "Employees", ErrorMessageResourceType = typeof(Localization.Validation), ErrorMessageResourceName = "EmailAddressExists")]
+
+        [Display(ResourceType = typeof(Localization.Employees), Name = "HireDate")]
+        public DateTime HireDate { get; set; }
+
         public string Email { get; set; }
     }
 }

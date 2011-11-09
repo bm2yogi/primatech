@@ -1,3 +1,4 @@
+using System;
 using System.Web.Mvc;
 using PrimatechMVC.Models;
 
@@ -39,6 +40,21 @@ namespace PrimatechMVC.Controllers
         public ActionResult Edit(EmployeeProfile profile)
         {
             return View();
+        }
+
+        public ActionResult Detail()
+        {
+            var model = new EmployeeProfile
+                            {
+                                EmployeeId = 1337,
+                                FirstName = "Mike",
+                                LastName = "Ibarra",
+                                Department = "IT",
+                                Position = "Cog",
+                                Email = "bm2yogi@gmail.com",
+                                HireDate = new DateTime(2010, 10, 24)
+                            };
+            return View(model);
         }
 
         public JsonResult IsExistingEmail(string email)

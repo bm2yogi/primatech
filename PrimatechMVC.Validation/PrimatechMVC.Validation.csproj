@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorLevelValidationAttribute.cs" />
+    <Compile Include="CustomValidationRules.cs" />
     <Compile Include="EmailAttribute.cs" />
     <Compile Include="GreaterThanAttribute.cs" />
     <Compile Include="ModelClientValidationGreaterThanRule.cs" />

@@ -63,9 +63,9 @@ namespace PrimatechMVC.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Employee Number.
         /// </summary>
-        public static string EmployeeId {
+        public static string Employee_Id {
             get {
-                return ResourceManager.GetString("EmployeeId", resourceCulture);
+                return ResourceManager.GetString("Employee_Id", resourceCulture);
             }
         }
         
@@ -75,6 +75,15 @@ namespace PrimatechMVC.Localization {
         public static string FirstName {
             get {
                 return ResourceManager.GetString("FirstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Hired.
+        /// </summary>
+        public static string HireDate {
+            get {
+                return ResourceManager.GetString("HireDate", resourceCulture);
             }
         }
         
