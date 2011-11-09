@@ -118,18 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EmailAddressExists" xml:space="preserve">
-    <value>{0} is already assigned to another employee</value>
+    <value>This email address already belongs to another employee.</value>
   </data>
   <data name="EmailAddressInvalidFormat" xml:space="preserve">
-    <value>{0} is not formatted correctly</value>
+    <value>{0} is not formatted as an email address.</value>
   </data>
-  <data name="EmailAddressIsRequired" xml:space="preserve">
-    <value>{0} is required</value>
+  <data name="IsLessThanExpected" xml:space="preserve">
+    <value>{0} needs to be greater than {1}.</value>
   </data>
-  <data name="EmployeeNumberTooSmall" xml:space="preserve">
-    <value>{0} needs to be greater than {1}</value>
+  <data name="IsRequired" xml:space="preserve">
+    <value>{0} is a required field.</value>
+  </data>
+  <data name="NumericValuesNotInRange" xml:space="preserve">
+    <value>The value of {0} needs to be between {2} and {1}.</value>
   </data>
   <data name="StringLengthNotInRange" xml:space="preserve">
-    <value>{0} needs to be between {2} and {1} characters long</value>
+    <value>{0} needs to be between {2} and {1} characters long.</value>
   </data>
 </root>

@@ -95,5 +95,14 @@ namespace PrimatechMVC.Localization {
                 return ResourceManager.GetString("LastName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proficiency Index.
+        /// </summary>
+        public static string ProficiencyIndex {
+            get {
+                return ResourceManager.GetString("ProficiencyIndex", resourceCulture);
+            }
+        }
     }
 }

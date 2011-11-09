@@ -129,4 +129,7 @@
   <data name="LastName" xml:space="preserve">
     <value>Last Name</value>
   </data>
+  <data name="ProficiencyIndex" xml:space="preserve">
+    <value>Proficiency Index</value>
+  </data>
 </root>

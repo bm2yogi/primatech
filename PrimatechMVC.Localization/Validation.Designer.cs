@@ -61,7 +61,7 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} is already assigned to another employee.
+        ///   Looks up a localized string similar to This email address already belongs to another employee..
         /// </summary>
         public static string EmailAddressExists {
             get {
@@ -70,7 +70,7 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} is not formatted correctly.
+        ///   Looks up a localized string similar to {0} is not formatted as an email address..
         /// </summary>
         public static string EmailAddressInvalidFormat {
             get {
@@ -79,25 +79,34 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} is required.
+        ///   Looks up a localized string similar to {0} needs to be greater than {1}..
         /// </summary>
-        public static string EmailAddressIsRequired {
+        public static string IsLessThanExpected {
             get {
-                return ResourceManager.GetString("EmailAddressIsRequired", resourceCulture);
+                return ResourceManager.GetString("IsLessThanExpected", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} needs to be greater than {1}.
+        ///   Looks up a localized string similar to {0} is a required field..
         /// </summary>
-        public static string EmployeeNumberTooSmall {
+        public static string IsRequired {
             get {
-                return ResourceManager.GetString("EmployeeNumberTooSmall", resourceCulture);
+                return ResourceManager.GetString("IsRequired", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} needs to be between {2} and {1} characters long.
+        ///   Looks up a localized string similar to The value of {0} needs to be between {2} and {1}..
+        /// </summary>
+        public static string NumericValuesNotInRange {
+            get {
+                return ResourceManager.GetString("NumericValuesNotInRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} needs to be between {2} and {1} characters long..
         /// </summary>
         public static string StringLengthNotInRange {
             get {
