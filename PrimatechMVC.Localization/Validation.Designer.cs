@@ -61,6 +61,15 @@ namespace PrimatechMVC.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Department {0} does not exist..
+        /// </summary>
+        public static string DepartmentDoesNotExist {
+            get {
+                return ResourceManager.GetString("DepartmentDoesNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This email address already belongs to another employee..
         /// </summary>
         public static string EmailAddressExists {

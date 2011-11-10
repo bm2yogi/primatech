@@ -45,12 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorLevelValidationAttribute.cs" />
+    <Compile Include="DepartmentValidationAttribute.cs" />
     <Compile Include="CustomValidationRules.cs" />
     <Compile Include="EmailAttribute.cs" />
     <Compile Include="GreaterThanAttribute.cs" />
     <Compile Include="ModelClientValidationGreaterThanRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrimatechMVC.Localization\PrimatechMVC.Localization.csproj">
+      <Project>{6CEAE047-593D-4F1C-8F26-EEF1BD36C5F4}</Project>
+      <Name>PrimatechMVC.Localization</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
