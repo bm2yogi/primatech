@@ -35,7 +35,8 @@ namespace PrimatechMVC.ModelMetadata
         [Display(ResourceType = typeof(Localization.Employees), Name = "HireDate")]
         public DateTime HireDate { get; set; }
 
-        [RegularExpression(@"^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*)\.+[a-zA-Z]{2,9})$")]
+        //[RegularExpression(@"^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*)\.+[a-zA-Z]{2,9})$")]
+        [Email()]
         public string Email { get; set; }
     }
 }

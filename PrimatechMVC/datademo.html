@@ -3,27 +3,6 @@
 <head>
     <title></title>
     <script type="text/javascript" src="Scripts/jquery-1.6.4.min.js"></script>
-    <script>
-
-        function square(number) {
-            alert(number + ' squared = ' + number* number);
-        }
-
-        $(document).ready(function() {
-            var alphadata = { color: 'red', city: 'seattle' };
-            var betadata = { func: square, number: 5 };
-
-            $("#alfa").data("alphadata", alphadata);
-            $("#bravo").data("foo", betadata);
-
-            var data = $('#bravo').data();
-            data.foo.func(data.foo.number);
-
-            data = $('#alfa').data();
-            data.func(data.number);
-
-        });
-    </script>
 </head>
 <body>
 <h1>This is the title</h1>
